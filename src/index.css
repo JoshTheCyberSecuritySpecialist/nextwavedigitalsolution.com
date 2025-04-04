@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.w-md-editor {
+  background-color: transparent !important;
+}
+
+.w-md-editor-text {
+  color: white !important;
+}
+
+.wmde-markdown {
+  background-color: transparent !important;
+  color: #ccc !important;
+}
+
+.wmde-markdown h1,
+.wmde-markdown h2,
+.wmde-markdown h3,
+.wmde-markdown h4,
+.wmde-markdown h5,
+.wmde-markdown h6 {
+  color: white !important;
+}
+
+/* React Tags Input Styles */
+.ReactTags__selected {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.ReactTags__tag {
+  background: rgba(58, 54, 219, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+}
+
+.ReactTags__remove {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.ReactTags__remove:hover {
+  color: white;
+}
+
+.ReactTags__tagInput {
+  width: 100%;
+}
+
+.ReactTags__tagInputField {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.ReactTags__tagInputField:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #00FFF7;
+}
